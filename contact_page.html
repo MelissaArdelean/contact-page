@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Page</title>
+    <link rel="stylesheet" href="contact_page.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Contact Us</h1>
+      <h2>Feel free to contact us</h2>
+    </header>
+
+    <article>
+      <form action="contact">
+        <div class="left-column">
+          <label for="name">Full Name:</label>
+          <input type="text" id="name" placeholder="Enter Name" required />
+          <label for="email">Email:</label>
+          <input type="email" id="email" placeholder="Enter Email" required />
+          <label for="subject">Subject:</label>
+          <input
+            type="text"
+            id="subject"
+            placeholder="Enter Subject"
+            required
+          />
+        </div>
+        <div class="right-column">
+          <label for="message">Message:</label>
+          <textarea
+            name="message"
+            id="message"
+            cols="50"
+            rows="7"
+            placeholder="Enter Message"
+          ></textarea>
+          <button name="submit" id="submit">Send Message</button>
+        </div>
+      </form>
+    </article>
+
+    <footer class="social-media">
+      <h3 class="social">Or find us on social media</h3>
+      <hr class="social" />
+      <ul class="social">
+        <li><a href="">Facebook</a></li>
+        <li><a href="">Instagram</a></li>
+        <li>
+          <a href="https://www.linkedin.com/in/melissa-ardelean-413077223/"
+            >Linekdin</a
+          >
+        </li>
+      </ul>
+    </footer>
+  </body>
+</html>
